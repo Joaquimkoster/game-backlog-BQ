@@ -19,7 +19,7 @@ public class Game {
 	@Column(nullable = false, length = 100)
 	private String name; 
 	
-	@Column(nullable = false, length = 255)
+	@Column(nullable = false, length = 100)
 	private String description;
 	
 	@Column(nullable = false)
