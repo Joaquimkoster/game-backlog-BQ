@@ -1,0 +1,8 @@
+# Configurações pessoais de editores
+.vscode/
+.idea/
+
+# Variáveis de ambiente e credenciais locais
+.env
+.env.*
+!.env.example
