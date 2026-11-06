@@ -13,12 +13,12 @@ public class GameDTO {
     private Long id;
 
     @NotBlank(message = "Name is required")
-    @Size(min = 2, max = 100, message = "Name must be between 2 and 100 chacacters")
+    @Size(min = 2, max = 100, message = "Name must be between 2 and 100 characters")
     @Schema(description = "Name of the game", example = "Elden Ring")
     private String name;
 
     @NotBlank(message = "Description is required")
-    @Size(min = 2, max = 100, message = "Name must be between 2 and 100 chacacters")
+    @Size(min = 2, max = 100, message = "Description must be between 2 and 100 chacacters")
     @Schema(description = "Short description is required", example = "I liked the game, it was fun")
     private String description;
 
